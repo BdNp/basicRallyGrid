@@ -17,7 +17,7 @@ You can find the documentation on our help [site.](https://help.rallydev.com/app
 This guide will give you a jumpstart on creating your own Rally apps.
 
 ## Essential Material
-* [https://www.youtube.com/watch?v=lig8er0EaCs&index=2&list=PL3PQ-IsMxhG14aDViKxlPZASIrHatNkft](Youtube video series on Rally Dev) - you can skip the 1st in the series, it’s very basic JS and some back story
+* [Youtube video series on Rally Dev](https://www.youtube.com/watch?v=lig8er0EaCs&index=2&list=PL3PQ-IsMxhG14aDViKxlPZASIrHatNkft) - you can skip the 1st in the series, it’s very basic JS and some back story
 
 * [https://help.rallydev.com/apps/2.0/doc/](Rally App SDK Documentation) -- There are tons of examples WITH code in the docs, under the last tab (lightbulb)
 
