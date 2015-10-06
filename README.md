@@ -34,4 +34,3 @@ This guide will give you a jumpstart on creating your own Rally apps. [Example p
 * `load` does not fire on itself. Unless you plan to use it otherwise, you must set the `autoLoad` property on your app. `autoLoad: true` Otherwise nothing will happen.
 * In order to create a view, you MUST specify the scope under the listener. `scope: this`
 
-
