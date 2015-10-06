@@ -27,7 +27,9 @@ This guide will give you a jumpstart on creating your own Rally apps. [Example p
 ###Getting Started
 1. Install rally-app-builder via npm [rally-app-builder](https://github.com/RallyApps/rally-app-builder)
 2. scaffold your app project in terminal: `rally-app-builder init <project-name>`
-3. All of your work will be done in app.js within the object method 'launch'
+3. Code! All of your work will be done in app.js within the object method 'launch'
+4. When you are ready to build/deploy your app, run `rally-app-builder build`
+	+ Your app will be compiled in `/deploy`
 
 #### Basic Tips
 * Your controllers and views are executed from the `load` method in the Rally API Calls' listeners. `load` tells your app what to do with the data it's retrieved
