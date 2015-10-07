@@ -8,27 +8,27 @@ Ext.define('CustomApp', {
         console.log('Running the app.');
 
         var myStore = Ext.create('Rally.data.wsapi.Store', {
-        	model: 'User Story',
-        	autoLoad: true,
-        	listeners: {
-        		load: function(myStore, data, success) {
-        			console.log('got data! ', myStore, data, success);
+            model: 'User Story',
+            autoLoad: true,
+            listeners: {
+                load: function(myStore, data, success) {
+                    console.log('got data! ', myStore, data, success);
 
-        			var myGrid = Ext.create('Rally.ui.grid.Grid', {
-        				store: myStore,
-        				columnCfgs: [
-	        				'FormattedID', 'Name', 'ScheduleState'
-        				],
-        			});
+                    var myGrid = Ext.create('Rally.ui.grid.Grid', {
+                        store: myStore,
+                        columnCfgs: [
+                            'FormattedID', 'Name', 'ScheduleState'
+                        ]
+                    });
 
-        			console.log('my grid', myGrid);
+                    console.log('my grid', myGrid);
 
-        			this.add(myGrid);
-        			console.log(this);
-        		},
-        		scope: this
-        	},
-        	fetch: ['FormattedID', 'Name', 'ScheduleState']
+                    this.add(myGrid);
+                    console.log(this);
+                },
+                scope: this
+            },
+            fetch: ['FormattedID', 'Name', 'ScheduleState']
         });
 
 
