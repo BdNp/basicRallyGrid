@@ -8,10 +8,6 @@ basicGrid
 
 AppTemplate is released under the MIT license.  See the file [LICENSE](./LICENSE) for the full text.
 
-##Documentation for SDK
-
-You can find the documentation on our help [site.](https://help.rallydev.com/apps/2.0/doc/)
-
 # Rally Developer Quick Start Guide
 
 This guide will give you a jumpstart on creating your own Rally apps. [Example project](https://github.com/BdNp/basicRallyGrid)
